@@ -1,0 +1,19 @@
+import java.io.IOException;
+
+
+public final class Game {
+
+    public final Player player = Player.newInstance();
+
+    public void play() throws IOException {
+        System.out.println("You are " + player + " " + player.getDescription());
+        Dungeon.newInstance().startQuest(player);
+    }
+
+    public static void main(String[] args) throws IOException {
+        Game game = new Game();
+        game.play();
+    }
+
+}
+
