@@ -1,4 +1,4 @@
-# GroupProj
+# GroupProj (ANTHONY, FELIPE, TIFFANY, CHRIS)
 Group project for OOP Fall18
 
 
